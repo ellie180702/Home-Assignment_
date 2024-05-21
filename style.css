@@ -90,6 +90,17 @@
         margin-top: -60px;
         margin-right: 100px;
     }
+
+    .button4{
+        float: right;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: -25px;
+        margin-right: 70px;
+
+    }
     
     .gallerybox{
         float: right;
@@ -117,6 +128,8 @@
         border: 2px solid #2B192E;
         border-radius: 5px;
     }
+
+    
     
     
     footer{
