@@ -1,0 +1,129 @@
+@media screen and (max-width: 1440px){
+    body{
+        background-color: #CE8CA5;
+        margin: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .topnav{
+        background-color: #2B192E;
+        overflow: hidden;
+    }
+    
+    .topnav img{
+        height: 95px;
+    }
+    
+    .topnav a{
+        float: right;
+        color: #F5E8DA;
+        text-align: center;
+        padding: 30px 17px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .topnav a:hover{
+        background-color: #CE8CA5;
+        color: #F5E8DA;
+    }
+    
+    .topnav a.active{
+        background-color: #B87F8D;
+        color: #F5E8DA;
+    }
+    
+    
+    .shopbox{
+        width: 30%;
+        margin-left: 20px;
+        margin-top: 80px;
+        background-color: #B87F8D;
+        border: 2px solid #2B192E;
+        border-radius: 5px;
+    }
+    
+    .shopbox h2{
+        color: #F5E8DA;
+        text-align: center;
+        font-style: italic;
+        font-size: 26px;
+    }
+    
+    .shopbox img{
+        
+        height: 130px;
+        margin: 10px;
+        margin-right: 42px;
+        padding: 0;
+        border: 2px solid #2B192E;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+    
+    .shopbox button{
+    
+        background-color: #F5E8DA;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 55px;
+    }
+    
+    .button2{
+        font-weight: 900;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: -320px;
+        padding-top: 10px;
+    }
+    
+    .gallerybox{
+        float: right;
+        width: 27.25%;
+        margin-right: 20px;
+        margin-top: -295px;
+        background-color: #B87F8D;
+        border: 2px solid #2B192E;
+        border-radius: 5px;
+    }
+    
+    .gallerybox h2{
+        color: #F5E8DA;
+        text-align: center;
+        font-style: italic;
+        font-size: 26px;
+    }
+    
+    .gallerybox img{
+        height: 130px;
+        margin: 10px;
+        margin-left: 20px;
+        margin-right:42px;
+        padding: 0;
+        border: 2px solid #2B192E;
+        border-radius: 5px;
+    }
+    
+    
+    footer{
+        display: block;
+        background-color: #2B192E;
+        color: #CE8CA5;
+        text-align: center;
+        padding: 3px;
+        margin-top: 50%;
+    }
+    
+}
+
+
+
+
+
+
+
+
