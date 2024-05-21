@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px)  {
     body{
         background-color: #CE8CA5;
         margin: 0;
@@ -79,6 +79,16 @@
         border-radius: 5px;
         margin-left: -320px;
         padding-top: 10px;
+    }
+
+    .button3{
+        float: right;
+        font-weight: 900;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: -60px;
+        margin-right: 100px;
     }
     
     .gallerybox{
