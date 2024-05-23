@@ -30,3 +30,21 @@ body{
     background-color: #B87F8D;
     color: #F5E8DA;
 }
+
+#title{
+    color: #F5E8DA;
+    text-align: center;
+    font-style: italic;
+    -webkit-text-stroke-color: #2B192E;
+    -webkit-text-stroke-width: 2px;
+    font-size: 50px;
+}
+
+footer{
+    display: block;
+    background-color: #2B192E;
+    color: #CE8CA5;
+    text-align: center;
+    padding: 3px;
+    margin-top: 50%;
+}
