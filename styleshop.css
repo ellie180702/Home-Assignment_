@@ -58,8 +58,10 @@ body{
     height: auto;
 }
 
-button{
-    border: #2B192E;
+#info1{
+    font-weight: 900;
+    border: 2px solid #2B192E;
+    
 }
 
 footer{
