@@ -1,0 +1,32 @@
+body{
+    background-color: #CE8CA5;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.topnav{
+    background-color: #2B192E;
+    overflow: hidden;
+}
+
+.topnav img{
+    height: 95px;
+}
+
+.topnav a{
+    float: right;
+    color: #F5E8DA;
+    text-align: center;
+    padding: 30px 17px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover{
+    background-color: #CE8CA5;
+    color: #F5E8DA;
+}
+
+.topnav a.active{
+    background-color: #B87F8D;
+    color: #F5E8DA;
+}

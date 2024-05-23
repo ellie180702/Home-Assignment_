@@ -118,6 +118,14 @@
         font-style: italic;
         font-size: 26px;
     }
+
+    #prof{
+        color: #F5E8DA;
+        font-size: 22px;
+        -webkit-text-stroke-color: #2B192E;
+        -webkit-text-stroke-width: 1px;
+        font-style: italic;
+    }
     
     .gallerybox img{
         height: 130px;
@@ -129,8 +137,15 @@
         border-radius: 5px;
     }
 
-    
-    
+    .middletext {
+        color: #F5E8DA;
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
     
     footer{
         display: block;
