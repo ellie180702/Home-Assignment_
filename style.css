@@ -28,6 +28,12 @@
         color: #F5E8DA;
     }
     
+    .topnav #basket{
+        background-color: #F5E8DA;
+        color: #2B192E;
+        font-weight: 700;
+    }
+    
     .topnav a.active{
         background-color: #B87F8D;
         color: #F5E8DA;
