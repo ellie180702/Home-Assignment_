@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
-    <link rel="stylesheet" href="stylegal.css">
+    <link rel="stylesheet" href="styleshop.css">
     <script src=https://kit.fontawesome.com/cc49996424.js crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script>
+    function showNav(){
+        $(".topnav").toggle();
+      }
+      function infocheese(){
+            alert("Lemon Cheesecake; Contain allergens such as milk and flour")
+        }
+        function infocookies(){
+            alert("Cookies; Contain allergens such as milk and flour")
+        }
+        function addtocart(){
+            alert("Your item has been added to the basket")
+        }
+</script>
 </head>
 <body>
     <div class="topnav">
@@ -18,6 +32,36 @@
         <a class="active" href="Shop.html">Shop</a>
         <a href="Home.html">Home</a>
     </div>
+    <button id="toggle" onclick="showNav()"></button>
+    <h1 id="title">
+        Shop
+    </h1>
+    <div id="pictures">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="Pictures for HA Web/IMG_3127_Original 2.jpg" alt="lemon cheesecake" >
+            </div>
+            </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="Pictures for HA Web/1000000268.JPG" alt="lemon cake">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="Pictures for HA Web/63483380628__D11D4684-7722-4666-BDF8-31078163E095.jpg" alt="strawberry cake">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="Pictures for HA Web/IMG_3594 2.jpg" alt="chocolate cake">
+            </div>
+        </div>
+    </div>
+    <div class="button">
+        <button onclick="infocheese()">Info</button>
+    </div>
+
     <footer>
         <i class="fa-brands fa-facebook" style="color: #b87f8d;"></i>
         <i class="fa-brands fa-instagram" style="color: #b87f8d;"></i>

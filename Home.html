@@ -6,6 +6,21 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <script src=https://kit.fontawesome.com/cc49996424.js crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        function showNav(){
+            $(".topnav").toggle();
+        }
+        function infoprof(){
+            alert("Profiteroles; Contain allergens such as milk and flour")
+        }
+        function infocookies(){
+            alert("Cookies; Contain allergens such as milk and flour")
+        }
+        function addtocart(){
+            alert("Your item has been added to the basket")
+        }
+    </script>
 </head>
 <body>
     <div class="topnav">
@@ -16,6 +31,7 @@
         <a href="Shop.html">Shop</a>
         <a class="active" href="Home.html">Home</a>
     </div>
+    <button id="toggle" onclick="showNav()"></button>
     <main>
         <div class="shopbox">
             <h2>Shop</h2>
@@ -23,16 +39,16 @@
                 <img src="Pictures for HA Web/7e68dc70-6599-441c-aa4b-bb443c5a4631 2.jpg" alt="profiteroles">
                 <img src="Pictures for HA Web/54508A5F-7755-4D19-9A39-2A53BB030059.JPG" alt="Cookies">
             <div class="button">
-                <button onclick="">Info</button>
+                <button onclick="infoprof()">Info</button>
             </div>
             <div class="button2">
-                <button onclick="">Add to Cart</button>
+                <button onclick="addtocart()">Add to Cart</button>
             </div>
             <div class="button3">
-                <button onclick="">Info</button>
+                <button onclick="infocookies()">Info</button>
             </div>
             <div class="button4">
-                <button onclick="">Add to Cart</button>
+                <button onclick="addtocart()">Add to Cart</button>
             </div>
             </div>
         </div>

@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    <link rel="stylesheet" href="styleshop.css">
+    <link rel="stylesheet" href="stylegal.css">
     <script src=https://kit.fontawesome.com/cc49996424.js crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        function showNav(){
+            $(".topnav").toggle();
+          }
+    </script>
+
 </head>
 <body>
     <div class="topnav">
@@ -18,6 +24,7 @@
         <a href="Shop.html">Shop</a>
         <a href="Home.html">Home</a>
     </div>
+    <button id="toggle" onclick="showNav()"></button>
     <h1 id="title">
         Gallery
     </h1>

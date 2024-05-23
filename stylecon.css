@@ -46,20 +46,22 @@ body{
     font-size: 50px;
 }
 
-.col-md-4{
-    display: inline-block;
+.cmxform{
     border: 2px solid #2B192E;
-    margin: 22px;
-    width: 21%;
-}
-
-.col-md-4 img{
-    width: 100%;
-    height: auto;
+    color: #F5E8DA;
+    background-color: #B87F8D;
+    margin-right: 1000px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 20px;
 }
 
 button{
-    border: #2B192E;
+    background-color: #B87F8D;
+    color: #2B192E;
+    font-weight: 900;
 }
 
 footer{

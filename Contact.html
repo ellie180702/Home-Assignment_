@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylecon.css">
+    <script src=https://kit.fontawesome.com/cc49996424.js crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <scrip src="http://code.jquery.com/jquery-2.1.1.min.js"></scrip>
+    <script src="js/jquery.validate.js"></script>
+    <script>
+        function showNav(){
+            $(".topnav").toggle();
+          }
+    </script>
+</head>
+<body>
+    <div class="topnav">
+        <img src="Pictures for HA Web/Logo_2.png" alt="Logo">
+        <a id="basket" href="#Basket">Basket</a>
+        <a class="active" href="Contact.html">Contact</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Shop.html">Shop</a>
+        <a href="Home.html">Home</a>
+    </div>
+    <button id="toggle" onclick="showNav()"></button>
+    <h1 id="title">
+        Contact
+    </h1>
+
+    <form class="cmxform" id="commentform">
+        <p>
+            <label for="cname">Full Name</label>
+            <input id="cname" name="name" minlength="3" type="text" required/>
+        </p>
+        <p>
+            <label for="cemail">Email <span>(required, include an '@')</span></label>
+            <input id="cemail" type="email" name="email" required/>
+        </p>
+        <p>
+            <label for="cnumber">Contact Number <span>(optional)</span></label>
+            <input id="cnumber" type="text" name="number"/>
+        </p>
+        <p>
+            <label for="ccomment">Comment <span>(required)</span></label>
+            <textarea id="ccomment" name="comment" required></textarea>
+        </p>
+        <button><a href="malito: degiorgioella@gmail.com">Send</a></button>
+    </form>
+    <script>
+        $("#commentform").validate();
+    </script>
+    <footer>
+        <i class="fa-brands fa-facebook" style="color: #b87f8d;"></i>
+        <i class="fa-brands fa-instagram" style="color: #b87f8d;"></i>
+        <p>Ella De Giorgio 4.1J</p>
+        <i class="fa-solid fa-cookie-bite" style="color: #b87f8d;"></i>
+    </footer>
+</body>
+</html>
